@@ -1,9 +1,10 @@
 {
     "name": "kotlin_quickstart_project",
-    "repo_name": "{{ cookiecutter.name | lower | replace(' ', '_') }}",
-    "package_name": "fvn.{{ cookiecutter.repo_name | replace('-', '') | replace('_', '') }}",
+    "directory_name": "{{ cookiecutter.name | lower | replace(' ', '_') }}",
+    "package_name": "fvn.{{ cookiecutter.directory_name | replace('-', '') | replace('_', '') }}",
     "package_path": "{{ cookiecutter.package_name | replace('.', '/') }}",
     "group": "{{ cookiecutter.package_name }}",
+    "artifact_id": "{{ cookiecutter.name | lower | replace(' ', '-') }}",
     "version": "0.1.0-SNAPSHOT",
     "main_class": "{{ cookiecutter.package_name }}.MainKt",
     "kotlin_version": "1.1.1",
