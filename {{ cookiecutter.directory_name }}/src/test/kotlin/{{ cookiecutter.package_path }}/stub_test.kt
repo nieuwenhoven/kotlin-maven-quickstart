@@ -1,6 +1,10 @@
 package {{ cookiecutter.package_name }}
 
-import org.junit.*
+import org.junit.After
+import org.junit.Before
+import org.junit.Test
+import kotlin.test.assertTrue
+
 import kotlin.test.*
 
 class StubTest {
